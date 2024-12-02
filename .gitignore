@@ -1,0 +1,41 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+**/.env
+**/venv/
+
+# Environment variables and settings
+.env
+*.env
+
+# Django specific files
+db.sqlite3
+*.log
+
+# Media and static files
+/media/
+staticfiles/
+
+# Node modules
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.env/
+
+# Migrations (optional: if you want to keep them, remove these lines)
+*/migrations/*
+
+# Ignore everything in migrations except __init__.py
+!*/migrations/__init__.py
+
